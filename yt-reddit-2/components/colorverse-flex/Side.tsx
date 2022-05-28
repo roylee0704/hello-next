@@ -4,7 +4,7 @@ import React from 'react'
 const Side = () => {
   const styles = {
     stickUnderHeader: 'sticky top-[4rem] z-50 mt-0',
-    screenSizeHeight: 'max-h-[0] min-h-[calc(100vh-4rem)]',
+    screenSizeHeight: 'max-h-[0] min-h-[calc(100vh-4.5rem)]',
     scrollable: 'overflow-y-scroll',
   }
 

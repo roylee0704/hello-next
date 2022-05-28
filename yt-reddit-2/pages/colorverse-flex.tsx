@@ -8,7 +8,9 @@ const ColorverseFlex = () => {
     <div className="h-screen w-[100vw] overflow-y-auto border-4 border-blue-400">
       <Header />
 
-      <div className="mt-[3.2rem] flex max-h-[0] min-h-[calc(100vh-4rem)] space-x-5 border-4 border-black">
+      {/* removing the height, sticky will work  */}
+      {/* max-h-[0] min-h-[calc(100vh-4rem)] */}
+      <div className="mt-[3.2rem] flex  space-x-5 border-4 border-black">
         <Side />
         <Main />
       </div>
