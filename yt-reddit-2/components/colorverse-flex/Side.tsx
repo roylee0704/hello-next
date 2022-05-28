@@ -16,7 +16,9 @@ const Side = () => {
         styles.scrollable,
         'min-w-[280px]',
         'max-w-[300px]',
-        'border-4 border-red-800'
+        ' border-red-800',
+        'bg-blue-100',
+        'hidden md:block'
       )}
     >
       <p>Menu Item</p>
